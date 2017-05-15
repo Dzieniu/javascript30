@@ -1,0 +1,24 @@
+.hand{
+	width:100px;
+	height:6px;
+	background:black;
+	position:absolute;
+	top:50%;
+	left:42%;
+	transition: all 0.5s;
+
+}
+
+.second{
+	transform:rotate(90deg);
+	transform-origin: 100%;
+	transition-timing-function: cubic-bezier(0, 3.07, 0.58, 1);
+}
+.minute{
+	transform:rotate(90deg);
+	transform-origin: 100%;
+}
+.hour{
+	transform:rotate(90deg);
+	transform-origin: 100%;
+}
