@@ -1,0 +1,33 @@
+body{
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:relative;
+}
+
+#keys{
+	position: absolute;
+	  top: 50%;
+	  left:50%;
+	  transform: translateY(-50%);
+	  transform: translateX(-50%);
+}
+.key{
+	color:white;
+	font-size:26px;
+	display:inline-block;
+	padding:30px;
+	border-style: solid;
+	border-color:black;
+	background-color: rgba(0,0,0,0.5);
+	
+}
+
+@keyframes showcurrent{
+	from{color:black;}
+	to{color:yellow;}
+}
+
+.current{
+	border-color:yellow;
+}
